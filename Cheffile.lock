@@ -1,0 +1,16 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.4.8)
+
+GIT
+  remote: https://github.com/ampledata/cookbook-splunk.git
+  ref: develop
+  sha: 036c28817a89be3b60182b2611a1350f909e6d73
+  specs:
+    splunk (0.0.3)
+
+DEPENDENCIES
+  apt (>= 0)
+  splunk (>= 0)
+
